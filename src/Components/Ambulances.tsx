@@ -97,14 +97,6 @@ const Ambulances: React.FC = () => {
   const [mapZoom, setMapZoom] = useState(6);
 
   // City coordinates
-  const cityCoordinates: { [key: string]: [number, number] } = {
-    'Hyderabad': [17.385044, 78.486671],
-    'Bangalore': [12.9716, 77.5946],
-    'Chennai': [13.0827, 80.2707],
-    'Visakhapatnam': [17.6868, 83.2185],
-    'Vijayawada': [16.5062, 80.6480],
-    'All': [17.385044, 78.486671] // FIXED: Changed from 'All Cities' to 'All'
-  };
 
   useEffect(() => {
     loadHotspotData();

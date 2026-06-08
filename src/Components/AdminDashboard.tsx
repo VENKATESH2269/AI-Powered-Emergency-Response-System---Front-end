@@ -19,7 +19,7 @@ interface FeatureCard {
 }
 
 const AdminDashboard: React.FC = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulate data loading

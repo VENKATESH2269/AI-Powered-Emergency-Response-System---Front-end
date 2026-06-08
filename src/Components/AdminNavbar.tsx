@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, LogOut, Home, Map, BarChart3,  AlertCircle, Ambulance } from 'lucide-react';
+import { Menu, X, LogOut, Home, Map,  AlertCircle, Ambulance } from 'lucide-react';
 
 interface NavOption {
   label: string;

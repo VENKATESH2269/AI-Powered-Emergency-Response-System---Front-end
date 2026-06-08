@@ -59,8 +59,7 @@ const ChangeMapView: React.FC<{ center: [number, number]; zoom: number }> = ({ c
 };
 
 const HotspotPrediction: React.FC = () => {
-  const adminEmail = sessionStorage.getItem("adminEmail");
-
+ 
   // State
   const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(false);
